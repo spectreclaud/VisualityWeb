@@ -47,7 +47,7 @@ public class BaseTests {
     }
 
     public void validateWindow(){
-        eyes.open(driver, "Automation Bookstore",
+        eyes.open(driver, "The internet",
                 Thread.currentThread().getStackTrace()[2].getMethodName());
         eyes.setMatchLevel(MatchLevel.LAYOUT);
         eyes.checkWindow();
